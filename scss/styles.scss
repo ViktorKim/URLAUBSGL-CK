@@ -1,0 +1,38 @@
+//Bootstrap normalize and grid
+@import "../bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/variables";
+@import "../bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/mixins";
+@import "../bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/normalize";
+@import "../bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/scaffolding";
+@import "../bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/grid";
+
+//fonts
+@import "fonts";
+
+//colors
+@import "colors";
+
+//main styles
+html{
+  height:100%;
+}
+body{
+  height: 100%;
+  font-family: Roboto;
+  font-weight: 300;
+  color: $text-color;
+  background-color: $main-bg-color;
+}
+
+.content_wrapper{
+  min-height:100%;
+  &:after{
+    content: '';
+    display: block;
+    height:197px;
+  }
+}
+.footer{
+  border-top: 4px solid $accent-color;
+  height: 197px;
+  margin-top: -197px;
+}
