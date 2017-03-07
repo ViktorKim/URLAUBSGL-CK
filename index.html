@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,79 +12,273 @@
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-  </head>
-  <body>
+</head>
+<body>
 
-  <div class="content_wrapper">
+<div class="test" style="position: relative;width: 100%;">
+    <img src="img/site.png" alt="" style="position: absolute;top: 0;width: 100%; filter: grayscale(99%);">
+    <style>
+        .header__bg-img{
+            opacity:.5;
+        }
+    </style>
+</div>
+
+<div class="content_wrapper">
     <!--site header-->
     <header class="header">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="header__logo_wrapper">
-              <h1 class="header_logo-text">URLAUBSGLÜCK</h1>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="header__login_wrapper">
-              <ul class="header__login_menu">
-                <li class="login_menu-item">Log in</li>
-                <li class="login_menu-item btn-bordered">Sign up</li>
-              </ul>
-            </div>
-          </div>
+
+        <div class="header__bg">
+            <img src="img/header_bg.png" alt="URLAUBSGLÜCK" class="header__bg-img">
         </div>
 
-        <div class="row">
-          <div class="header__content">
+        <div class="header__content_wrapper">
+            <div class="container">
+                <div class="row header-topline">
+                    <div class="col-md-6">
+                        <div class="header__logo_wrapper">
+                            <h1 class="header_logo-text">URLAUBSGLÜCK</h1>
+                        </div>
+                    </div>
 
-          </div>
+                    <div class="col-md-6">
+                        <div class="header__login_wrapper">
+                            <ul class="header__login_menu">
+                                <li class="login_menu-item">Log in</li>
+                                <li class="login_menu-item btn btn-bordered">Sign up</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="header__content">
+                        <div class="col-md-12">
+                            <h2 class="header__content-title">
+                                Share your<br>
+                                holiday dreams
+                            </h2>
+                            <p class="header__content-text">And find the perfect partner to fullfill it</p>
+                            <a href="#" class="header__content-btn btn btn-filled">Find your holiday partner</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
+
     </header>
 
-  </div>
+    <!--how it works-->
+    <section class="how">
+        <div class="container">
+            <h2 class="how__title section-title">How Urlaubsglück works?</h2>
+            <div class="row">
+
+                <div class="col-md-4">
+                    <div class="how__item_wrapper">
+                        <img src="img/how_it_works/hands.png" alt="hands" class="how__item-img">
+                        <ul class="how-navigators">
+                            <li class="navigator-item left"><img src="img/icons/arrow_left.png" alt="left" class="navigator-item-img"></li>
+                            <li class="navigator-item right"><img src="img/icons/arrow_right.png" alt="right" class="navigator-item-img"></li>
+                        </ul>
+                        <div class="how__item-content">
+                            <a class="how__item-btn btn btn-filled">Step 1</a>
+                            <h3 class="how__item-title">
+                                Sed leo enim, condimentum
+                            </h3>
+                            <p class="how__item-text">
+                                Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!--partners-->
+    <section class="partners">
+        <div class="container">
+            <h2 class="partners__title section-title">Meet a partner for your best holiday</h2>
+
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="partners__item_wrapper">
+                        <div class="partners__item-img_wrapper">
+                            <img src="img/partners/bradley_man.png" alt="Bradley" class="partners__item-img img-circle">
+                            <span class="icon icon-tv"></span>
+                        </div>
+                    </div>
+
+                    <h3 class="partners__item-title">Bradley Hunter</h3>
+                    <p class="partners__item-text">Based in Chicago. I love playing tennis and loud music.</p>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="partners__item_wrapper">
+                        <div class="partners__item-img_wrapper">
+                            <img src="img/partners/bradley_man.png" alt="Bradley" class="partners__item-img img-circle">
+                            <span class="icon icon-tv"></span>
+                        </div>
+                    </div>
+
+                    <h3 class="partners__item-title">Bradley Hunter</h3>
+                    <p class="partners__item-text">Based in Chicago. I love playing tennis and loud music.</p>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="partners__item_wrapper">
+                        <div class="partners__item-img_wrapper">
+                            <img src="img/partners/bradley_man.png" alt="Bradley" class="partners__item-img img-circle">
+                            <span class="icon icon-tv"></span>
+                        </div>
+                    </div>
+
+                    <h3 class="partners__item-title">Bradley Hunter</h3>
+                    <p class="partners__item-text">Based in Chicago. I love playing tennis and loud music.</p>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="partners__item_wrapper">
+                        <div class="partners__item-img_wrapper">
+                            <img src="img/partners/bradley_man.png" alt="Bradley" class="partners__item-img img-circle">
+                            <span class="icon icon-tv"></span>
+                        </div>
+                    </div>
+
+                    <h3 class="partners__item-title">Bradley Hunter</h3>
+                    <p class="partners__item-text">Based in Chicago. I love playing tennis and loud music.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--discover-->
+    <section class="discover">
+        <div class="container">
+            <h2 class="discover__title section-title">Discover holiday activity ideas</h2>
+            <!--first row-->
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="discover__item_wrapper">
+                        <img src="img/discover/sport_activity.png" alt="Sport and activity" class="discover__item-img">
+                        <h3 class="discover__item-title">Sport and Activity</h3>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="discover__item_wrapper">
+                        <img src="img/discover/sport_activity.png" alt="Sport and activity" class="discover__item-img">
+                        <h3 class="discover__item-title">Sport and Activity</h3>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="discover__item_wrapper">
+                        <img src="img/discover/sport_activity.png" alt="Sport and activity" class="discover__item-img">
+                        <h3 class="discover__item-title">Sport and Activity</h3>
+                    </div>
+                </div>
+            </div>
+
+            <!--second row-->
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="discover__item_wrapper">
+                        <img src="img/discover/sport_activity.png" alt="Sport and activity" class="discover__item-img">
+                        <h3 class="discover__item-title">Sport and Activity</h3>
+                    </div>
+                </div>
+
+                <div class="col-md-8">
+                    <div class="discover__item_wrapper">
+                        <img src="img/discover/sport_activity.png" alt="Sport and activity" class="discover__item-img">
+                        <h3 class="discover__item-title">Sport and Activity</h3>
+                    </div>
+                </div>
+            </div>
+
+            <!--third row-->
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="discover__item_wrapper">
+                        <img src="img/discover/sport_activity.png" alt="Sport and activity" class="discover__item-img">
+                        <h3 class="discover__item-title">Sport and Activity</h3>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="discover__item_wrapper">
+                        <img src="img/discover/sport_activity.png" alt="Sport and activity" class="discover__item-img">
+                        <h3 class="discover__item-title">Sport and Activity</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--search partners-->
+    <section class="search-partners">
+        <div class="container">
+            <h2 class="search-partners__title section-title">Discover holiday activity ideas</h2>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="search-partners-text">Hi! What are your holiday interests?</div>
+                </div>
+                <div class="col-md-12">
+                    <form action="index.html">
+                        <input type="email" placeholder="Enter your interests">
+                        <button type="submit">Search partners</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+
 <!--site footer-->
-  <footer class="footer">
+<footer class="footer">
     <div class="container">
-      <div class="row">
-        <div class="col-md-3">URLAUBSGLÜCK</div>
+        <div class="row">
+            <div class="col-md-3">URLAUBSGLÜCK</div>
 
-        <div class="col-md-2">
-          <ul class="footer__menu">
-            <h2 class="footer__menu-title">Company</h2>
-            <li class="footer__menu-item">About</li>
-            <li class="footer__menu-item">Contacts</li>
-            <li class="footer__menu-item">Press</li>
-            <li class="footer__menu-item">Blog</li>
-          </ul>
+            <div class="col-md-2">
+                <ul class="footer__menu">
+                    <h2 class="footer__menu-title">Company</h2>
+                    <li class="footer__menu-item">About</li>
+                    <li class="footer__menu-item">Contacts</li>
+                    <li class="footer__menu-item">Press</li>
+                    <li class="footer__menu-item">Blog</li>
+                </ul>
+            </div>
+
+            <div class="col-md-2">
+                <ul class="footer__menu">
+                    <h2 class="footer__menu-title">Partners</h2>
+                </ul>
+            </div>
+
+            <div class="col-md-5">
+                <div class="footer__designed_wrapper">
+                    <p class="footer__designed-text">Designed by</p>
+                    <img src="img/areto_development.png" alt="Areto development">
+                </div>
+            </div>
+
         </div>
-
-        <div class="col-md-2">
-          <ul class="footer__menu">
-            <h2 class="footer__menu-title">Partners</h2>
-          </ul>
-        </div>
-
-        <div class="col-md-5">
-          <div class="footer__designed_wrapper">
-            <p class="footer__designed-text">Designed by</p>
-            <img src="img/areto_development.png" alt="Areto development">
-          </div>
-        </div>
-
-      </div>
     </div>
-  </footer>
+</footer>
 
 
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-  </body>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+</body>
 </html>
